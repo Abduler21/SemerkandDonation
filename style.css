@@ -52,12 +52,15 @@ p {
 }
 /* ^ This css changes the p font size ^ */
 .hero {
-  height: 200px;
+  height: 650px;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   background-size: contain;
   background-position: center;
-  background-image: url(./download.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./Earthquake.webp);
 }
 /* ^ this css changes the height,width,margin,background image size and position ^ */
 .float-left {
